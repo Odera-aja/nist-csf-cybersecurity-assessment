@@ -14,16 +14,18 @@
 
 | File | Content |
 |---|---|
-| [`Nexora_NIST_CSF_Assessment.xlsx`](Nexora_NIST_CSF_Assessment.xlsx) | Full assessment: 98 NIST CSF controls across Identify, Protect, Detect, Respond and Recover, each with a result and an evidence-based finding, plus a summary sheet and the 3-year roadmap |
+| [`EVIDENCE.md`](EVIDENCE.md) | **Evidence register:** 44 current-state observations (E01–E44) that the assessment is based on, each mapped to the NIST CSF controls it supports |
+| [`Nexora_NIST_CSF_Assessment.xlsx`](Nexora_NIST_CSF_Assessment.xlsx) | Full assessment: 98 NIST CSF controls (with CSF IDs, e.g. `PR.AC-1`) across Identify, Protect, Detect, Respond and Recover. Each has a result, a finding and an **evidence reference**. Also includes the summary, the evidence register and the 3-year roadmap |
 | This README | Executive summary, key findings, roadmap and approach |
 
 ## Approach
 
-1. **Scoping:** Reviewed the current-state description of the organisation (team structure, governance, IAM, network, data, detection and response, BCP/DR, physical security).
+1. **Scoping & evidence collection:** Reviewed the current-state description of the organisation (team structure, governance, IAM, network, data, detection and response, BCP/DR, physical security) and recorded each fact as a numbered observation in the [evidence register](EVIDENCE.md).
 2. **Control assessment:** Rated each NIST CSF subcategory as **Pass / Fail / N/A / To confirm**.
    - *Evidence-based:* a control only passes if the evidence shows it is in place. "Partially met" is rated **Fail**, with the partial strengths noted in the finding.
    - *N/A* only where a control truly does not apply (for example SDLC, since the organisation does no software development).
    - *To confirm* where information is missing and an assumption would be unsafe (for example critical-infrastructure status).
+   - *Traceable:* every rating references its evidence IDs (e.g. `PR.AC-1 → Fail → E22, E23, E25`).
 3. **Gap analysis:** Aggregated results per function to identify systemic weaknesses.
 4. **Roadmap:** Grouped the gaps into initiatives and prioritised them by risk reduction, dependencies and effort across three years.
 
