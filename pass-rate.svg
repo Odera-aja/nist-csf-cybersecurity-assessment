@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="Helvetica,Arial,sans-serif">
+<rect width="720" height="300" fill="#ffffff"/>
+<text x="20" y="32" font-size="18" font-weight="bold" fill="#1F3864">Control pass rate by NIST CSF function</text>
+<text x="20" y="54" font-size="12" fill="#595959">Nexora Industries - current state assessment (98 controls)</text>
+<text x="100" y="99" font-size="14" text-anchor="end" fill="#262626">Identify</text>
+<rect x="110" y="80" width="520" height="26" fill="#F2F2F2" rx="3"/>
+<rect x="110" y="80" width="47" height="26" fill="#2E75B6" rx="3"/>
+<text x="165" y="98" font-size="13" fill="#262626">9%  (2 pass / 20 fail)</text>
+<text x="100" y="141" font-size="14" text-anchor="end" fill="#262626">Protect</text>
+<rect x="110" y="122" width="520" height="26" fill="#F2F2F2" rx="3"/>
+<rect x="110" y="122" width="168" height="26" fill="#2E75B6" rx="3"/>
+<text x="286" y="140" font-size="13" fill="#262626">32%  (10 pass / 21 fail)</text>
+<text x="100" y="183" font-size="14" text-anchor="end" fill="#262626">Detect</text>
+<rect x="110" y="164" width="520" height="26" fill="#F2F2F2" rx="3"/>
+<rect x="110" y="164" width="87" height="26" fill="#2E75B6" rx="3"/>
+<text x="205" y="182" font-size="13" fill="#262626">17%  (3 pass / 15 fail)</text>
+<text x="100" y="225" font-size="14" text-anchor="end" fill="#262626">Respond</text>
+<rect x="110" y="206" width="520" height="26" fill="#F2F2F2" rx="3"/>
+<rect x="110" y="206" width="2" height="26" fill="#2E75B6" rx="3"/>
+<text x="120" y="224" font-size="13" fill="#262626">0%  (0 pass / 15 fail)</text>
+<text x="100" y="267" font-size="14" text-anchor="end" fill="#262626">Recover</text>
+<rect x="110" y="248" width="520" height="26" fill="#F2F2F2" rx="3"/>
+<rect x="110" y="248" width="173" height="26" fill="#2E75B6" rx="3"/>
+<text x="291" y="266" font-size="13" fill="#262626">33%  (2 pass / 4 fail)</text>
+</svg>
